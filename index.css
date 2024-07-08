@@ -7,6 +7,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Merriweather", serif;
+    
 }
 
 .banner-container{
@@ -112,7 +113,7 @@ text-align: center;
 
 width: 802.9px;
 height: 370px;
-max-resolution: 30px auto;
+
 
 background: url(happy-new-year-3d-letters-sign-coloful-background-blurred-fireworks-2024-new-year-party);
 }
@@ -120,10 +121,84 @@ background: url(happy-new-year-3d-letters-sign-coloful-background-blurred-firewo
 /*---------wlecome se ----*/
 .wlc-container{
     /* Group 100 */
+    display: flex;
 
 width: 1320px;
 height: 600px;
 margin: 50px auto;
-border: 1px solid red;
+
 background-image: url(img/Vectorrr.png);
+background-color: rgba(0, 0, 0, 0.5);
+background-blend-mode: overlay;
+}
+
+/*--------3rd--------*/
+.wlc-l{
+    max-width: 50%;
+
+
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.wlc-l-content{
+    padding: 30px;
+    line-height: 50px;
+}
+
+.wlc-l-content h1{
+    color: rgb(255, 255, 255);
+font-size: 45px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 9%;
+text-align: left;
+padding-bottom: 15px;
+}
+.wlc-l-content p{
+    color: rgba(255, 255, 255, 0.8);
+
+font-size: 18px;
+font-weight: 100;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+padding-bottom: 15px;
+}
+
+.wlc-l-content button {
+    color: rgb(255, 255, 255);
+
+font-size: 18px;
+font-weight: 20;
+line-height: 24px;
+letter-spacing: 0%;
+border: none;
+text-align: center;
+text-transform: uppercase;
+background-color: rgba(240, 248, 255, 0);
+}
+
+.wlc-r{
+    max-width: 50%;
+    
+
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.wlc-2-content{
+    /* Group 70 */
+width: 319.83px;
+height: 464.66px;
+margin: 0 auto;
+bottom: -1628.77px;
 }
