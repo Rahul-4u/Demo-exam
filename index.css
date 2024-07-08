@@ -116,3 +116,14 @@ max-resolution: 30px auto;
 
 background: url(happy-new-year-3d-letters-sign-coloful-background-blurred-fireworks-2024-new-year-party);
 }
+
+/*---------wlecome se ----*/
+.wlc-container{
+    /* Group 100 */
+
+width: 1320px;
+height: 600px;
+margin: 50px auto;
+border: 1px solid red;
+background-image: url(img/Vectorrr.png);
+}
