@@ -56,7 +56,6 @@ text-align: center;
 max-width: 802.9px;
 height: 651px;
 margin: 120px auto;
-border: 1px solid red;
 }
 
 .discount-content{
@@ -71,6 +70,7 @@ overflow: hidden;
 
 .discount-content h1{
 font-family: Inter;
+color: red;
 font-size: 56px;
 font-weight: 700;
 line-height: 107px;
